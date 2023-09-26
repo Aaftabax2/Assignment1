@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.guest = void 0;
+let guest = [`Asad `, `Bilal `, `Ahmad `, `Hassan`];
+exports.guest = guest;
+let mesg = ", I would like to invite you for dinner tonight. Your presence will make the moment pleasant.";
+console.log(`Hi Dear ${guest[0]}${mesg}`);
+console.log(`Hi Dear ${guest[1]}${mesg}`);
+console.log(`Hi Dear ${guest[2]}${mesg}`);
+console.log(`Hi Dear ${guest[3]}${mesg}`);
